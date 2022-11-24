@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import Confetti from "react-confetti";
 import { Box, Stack, Typography } from "@mui/material";
-import useWindowSize from "../hooks/useWindowSize";
+import useWindowSize from "../../hooks/useWindowSize";
 
 const Home: NextPage = () => {
   const { width, height } = useWindowSize();
